@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simran Choudhary | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900">
+  <div class="flex min-h-screen">
+    <!-- Sidebar -->
+    <nav class="w-64 p-6 border-r fixed h-screen bg-white">
+      <h1 class="text-2xl font-bold mb-8">Simran C.</h1>
+      <ul class="space-y-4">
+        <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-600">About</a></li>
+        <li><a href="#experience" class="hover:text-blue-600">Experience</a></li>
+        <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+        <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="ml-64 w-full p-10 space-y-20">
+      <!-- Home -->
+      <section id="home" class="pt-10">
+        <h2 class="text-3xl font-bold">Hi, I'm Simran 👋</h2>
+        <p class="mt-4 text-lg">Automation Test Engineer passionate about building reliable systems with clean testing practices.</p>
+      </section>
+
+      <!-- About -->
+      <section id="about">
+        <h2 class="text-2xl font-bold mb-4">About Me</h2>
+        <p>I specialize in automation using Robot Framework, Cypress, Playwright, and Selenium. With a strong grasp of Agile methodologies and CI/CD pipelines, I've led efforts that improved testing coverage and reduced defect turnaround dramatically.</p>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience">
+        <h2 class="text-2xl font-bold mb-4">Experience</h2>
+        <ul class="space-y-4">
+          <li>
+            <h3 class="text-lg font-semibold">System Software Engineer, Orange Business Services (Apr 2023 - Present)</h3>
+            <p>Developed E2E automation with 1000+ test cases, API + UI testing using Robot Framework, Cypress, and Playwright.</p>
+          </li>
+          <li>
+            <h3 class="text-lg font-semibold">Associate Software Engineer, Orange Business Services (May 2021 - Apr 2023)</h3>
+            <p>Managed defect resolution, improved release efficiency by 100%, and acted as Business Analyst as needed.</p>
+          </li>
+          <li>
+            <h3 class="text-lg font-semibold">Graduate Engineer Trainee, Orange via Teamlease (Jul 2020 - May 2021)</h3>
+            <p>Built test plans, executed automation, improved test coverage by 95%.</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills">
+        <h2 class="text-2xl font-bold mb-4">Skills</h2>
+        <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 list-disc list-inside">
+          <li>Cypress</li>
+          <li>Playwright</li>
+          <li>Robot Framework</li>
+          <li>Selenium</li>
+          <li>Postman / API Testing</li>
+          <li>GitLab CI/CD</li>
+          <li>Agile & Scrum</li>
+          <li>TypeScript</li>
+          <li>Jira</li>
+        </ul>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects">
+        <h2 class="text-2xl font-bold mb-4">Projects</h2>
+        <ul class="space-y-4">
+          <li>
+            <h3 class="text-lg font-semibold">CSRTool Automation</h3>
+            <p>Automated API + UI test suites for CSRTool using Cypress and Robot, reducing regression time by 50%.</p>
+          </li>
+          <li>
+            <h3 class="text-lg font-semibold">Scoop Plugin QA</h3>
+            <p>Built Playwright scripts for functional coverage of internal plug-in, ensuring stable releases.</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <h2 class="text-2xl font-bold mb-4">Contact</h2>
+        <p>Email: <a href="mailto:simran4work@outlook.com" class="text-blue-600">simran4work@outlook.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/simran-c-622360129" class="text-blue-600">simran-c-622360129</a></p>
+        <p><a href="SimranChoudhary-Resume.pdf" download class="text-blue-600 underline">Download Resume</a></p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
